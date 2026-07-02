@@ -11,10 +11,6 @@
   --color-text-muted: #4A4740;
   --color-accent: #E85D3A;
   --color-green: #4ADE80;
-  
-  --font-mono: 'Space Mono', monospace;
-  --font-body: 'DM Sans', sans-serif;
-  --font-display: 'Playfair Display', serif;
 }
 
 * {
@@ -33,6 +29,14 @@ body {
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.font-display {
+  font-family: var(--font-display);
 }
 
 ::selection {
